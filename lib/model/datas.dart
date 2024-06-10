@@ -3,29 +3,29 @@ import 'package:learn_video/model/video.dart';
 class Datas {
 
   Video video1 = Video(
-    title: "Pluie qui tombe sur des feuilles",
+    title: "La foret",
     thumbString: "https://v3.cdnpk.net/videvo_files/video/free/2016-01/thumbnails/Forest_15_4_Videvo_large.jpg",
     urlVideo: "https://v3.cdnpk.net/videvo_files/video/free/2016-01/large_preview/Forest_15_4_Videvo.mp4",
   );
 
-  // Video video2 = Video(
-  //     title: "La Terre vue de l'espace",
-  //     thumbString: "https://cdn.videvo.net/videvo_files/video/free/2014-08/thumbnails/Earth_Zoom_In_small.jpg",
-  //     urlVideo: "https://cdn.videvo.net/videvo_files/video/free/2014-08/small_watermarked/Earth_Zoom_In_preview.mp4"
-  // );
-  //
-  // Video video3 = Video(
-  //     title: "Surf Session",
-  //     thumbString: "https://cdn.videvo.net/videvo_files/video/free/2019-05/thumbnails/190416_01_LlandudnoBeach_Drone_026_small.jpg",
-  //     urlVideo: "https://cdn.videvo.net/videvo_files/video/free/2019-05/small_watermarked/190416_01_LlandudnoBeach_Drone_026_preview.mp4"
-  // );
-  //
-  // Video video4 = Video(
-  //     title: "Ce soir on vous met le feu",
-  //     thumbString: "https://cdn.videvo.net/videvo_files/video/free/2012-11/thumbnails/Sequence 18-Stock Video_small.jpg",
-  //     urlVideo: "https://cdn.videvo.net/videvo_files/video/free/2012-11/small_watermarked/Sequence 18-Stock Video_preview.mp4"
-  // );
-  //
+  Video video2 = Video(
+      title: "Des étoiles",
+      thumbString: "https://v3.cdnpk.net/videvo_files/video/free/2012-07/thumbnails/hd0934_large.jpg",
+      urlVideo: "https://v3.cdnpk.net/videvo_files/video/free/2012-07/large_preview/hd0934.mp4"
+  );
+
+  Video video3 = Video(
+      title: "De la pluie",
+      thumbString: "https://v3.cdnpk.net/videvo_files/video/free/2014-12/thumbnails/Raindrops_Videvo_large.jpg",
+      urlVideo: "https://v3.cdnpk.net/videvo_files/video/free/2014-12/large_preview/Raindrops_Videvo.mp4"
+  );
+
+  Video video4 = Video(
+      title: "Chronomètre",
+      thumbString: "https://videocdn.cdnpk.net/euphony/content/video/partners0499/thumbnails/he1e2fc69_3121560_large.jpg",
+      urlVideo: "https://videocdn.cdnpk.net/euphony/content/video/partners0499/large_watermarked/he1e2fc69_3121560_preview.mp4"
+  );
+
   // Video video5 = Video(
   //     title: "Voyage à New York",
   //     thumbString: "https://cdn.videvo.net/videvo_files/video/free/2016-09/thumbnails/160820_001_NYC_Train_1080p_small.jpg",
@@ -71,9 +71,9 @@ class Datas {
   List<Video> parseVideos() {
     return [
       video1,
-      // video2,
-      // video3,
-      // video4,
+      video2,
+      video3,
+      video4,
       // video5,
       // video6,
       // video7,

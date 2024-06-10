@@ -12,6 +12,7 @@ class ListController extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Text("Video Flutter"),
         backgroundColor: Colors.blue.shade800,
       ),
       body: ListView.builder(
