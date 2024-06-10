@@ -13,7 +13,7 @@ class ListController extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Video Flutter"),
-        backgroundColor: Colors.blue.shade800,
+        backgroundColor: Colors.red.shade800,
       ),
       body: ListView.builder(
         itemBuilder: ((context, index) => VideoTileView(video: videos[index])),

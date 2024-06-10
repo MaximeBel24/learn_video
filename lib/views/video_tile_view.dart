@@ -27,7 +27,7 @@ class VideoTileView extends StatelessWidget {
                   Text(
                     video.title,
                     style: TextStyle(
-                        color: Colors.blue.shade600,
+                        color: Colors.red.shade600,
                         fontWeight: FontWeight.bold,
                         fontSize: 18
                     ),

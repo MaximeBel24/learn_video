@@ -21,9 +21,9 @@ class Datas {
   );
 
   Video video4 = Video(
-      title: "Chronomètre",
-      thumbString: "https://videocdn.cdnpk.net/euphony/content/video/partners0499/thumbnails/he1e2fc69_3121560_large.jpg",
-      urlVideo: "https://videocdn.cdnpk.net/euphony/content/video/partners0499/large_watermarked/he1e2fc69_3121560_preview.mp4"
+      title: "Des nuages",
+      thumbString: "https://v3.cdnpk.net/videvo_files/video/free/2014-06/thumbnails/Blue_Sky_and_Clouds_Timelapse_0892__Videvo_large.jpg",
+      urlVideo: "https://v3.cdnpk.net/videvo_files/video/free/2014-06/large_preview/Blue_Sky_and_Clouds_Timelapse_0892__Videvo.mp4"
   );
 
   // Video video5 = Video(
